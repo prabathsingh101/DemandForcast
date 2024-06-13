@@ -27,5 +27,6 @@ namespace DemandForcast.API.Controllers
 
             return Ok(mapper.Map<List<StateDto>>(statesDomainModel));
         }
+
     }
 }
